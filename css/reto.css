@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header
+{
+    background-color: #69496A;
+}
+
+.blog
+{
+    color: white;
+    display: inline-block;
+    font-family: 'Bruno Ace', cursive;
+    font-size: 1.5rem;
+    padding: 2rem;
+
+}
+
+#lista
+{
+    display: inline-block;
+    color: white;
+    position: absolute; 
+        right: 3rem;
+        top: 1.9rem;
+    font-family: 'Quicksand', sans-serif;
+        
+}
+    
+#lista li
+{
+    display: inline-block;
+    list-style: none;
+    padding: 0.5rem;
+}
+
+#lista a
+{
+    color: white;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+#lista li:hover 
+{
+    background-color: #9D3C72;
+    border-radius: 1rem;
+}
+
+#container
+{
+    margin: 2rem;
+    padding-top: 1rem;
+}
+
+#container h1
+{
+    font-size: 3rem;
+    display: inline-block;
+    font-family: 'Kanit', sans-serif;
+}
+
+#container p
+{
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-family: 'Quicksand', sans-serif;
+
+
+}
+
+#container .objetivos h2
+{
+    font-family: 'Kanit', sans-serif;
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+
+#container .objetivos li
+{
+    list-style: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#container .list-object li::before
+{
+    content: "📌 ";
+}
+
+#container .list-object li
+{
+    font-size: 1.5rem;
+}
+
+#pasos
+{
+    font-size: 3rem;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    font-family: 'Kanit', sans-serif;
+    padding-bottom: 2rem;
+
+}
+
+#contenido .paso p::before
+{
+    content: "🎯 ";
+}
+
+.pasoAlter p::before
+{
+    content: "🎯 ";
+}
+
+#contenido .paso
+{
+    width: 40%;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 3rem;
+    box-shadow: 5px 5px 15px gray;
+}
+
+#contenido .paso p
+{
+    font-size: 1.3rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* tres */
+
+#contenido .paso
+{
+    width: 40%;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 3rem;
+    box-shadow: 5px 5px 15px gray;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+#contenido .paso li
+{
+    font-size: 1.3rem;
+    list-style: none;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+#contenido .paso li::before
+{
+    content: "✨ ";
+}
+
+/* como meditar */
+#pasoAlter h2
+{
+    font-size: 1.5rem;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+}
+
+#pasoAlter p
+{
+    font-size: 1.3rem;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+#pasoAlter
+{
+    width: 90%;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 3rem;
+    box-shadow: 5px 5px 15px gray;
+    margin: 0 auto 2rem ;
+    padding-bottom: 2rem;
+}
+
+
+#contenido
+{
+    display: flex; 
+    flex-direction: row;
+}
+
+footer
+{
+    background-color: #69496A;
+    margin-top: 3rem;
+}
+
+footer .creditos
+{
+    font-size: 1rem;
+    display: inline-block;
+    color: white;
+    padding: 1.5rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+footer .lista-footer
+{
+    display: inline-block;
+}
+
+footer li
+{
+    display: inline-block;
+    list-style: none;
+    position: relative;
+        left: 45rem; 
+    padding: 0.5rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+footer a
+{
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+footer li:hover 
+{
+    background-color: #9D3C72;
+    border-radius: 1rem;
+}

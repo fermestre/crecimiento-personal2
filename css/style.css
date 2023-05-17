@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header
+{
+    background-color: #69496A;
+    width: 100%;
+}
+
+.blog
+{
+    color: white;
+    display: inline-block;
+    font-family: 'Bruno Ace', cursive;
+    font-size: 1.5rem;
+}
+
+#lista
+{
+    display: inline-block;
+    color: white;
+    position: absolute; 
+        right: 3rem;
+        top: 1.9rem;
+        
+}
+    
+#lista li
+{
+    display: inline-block;
+    list-style: none;
+    padding: 0.5rem;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+#lista a
+{
+    color: white;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+li:hover 
+{
+    background-color: #9D3C72;
+    border-radius: 1rem;
+}
+
+
+#container 
+{
+   background-color: #69496A; 
+   width: 100%;
+   height: 2%;
+}
+
+#container h1
+{
+    color: white;
+    padding: 3rem;
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 20;
+}
+
+#principal
+{
+    display: flex;
+    margin: 5rem;
+    /* padding: ; */
+}
+
+#principal h2
+{
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+#principal .tarjeta
+{
+    /* border: solid hwb(0 53% 44%) 0.1rem; */
+    width: 60%;
+    border-radius: 1rem;
+    display: inline-block;
+    box-shadow: 5px 5px 15px gray;
+    margin: 5rem;
+}
+
+.tarjeta a
+{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0.3rem;
+    width: 30%;
+    font-size: 1rem;
+    display: block;
+    padding: 0.5rem 1rem;
+    margin: 0 auto 1rem;
+    background-color: #9D3C72;
+    border-radius: 3rem;
+}
+
+
+#principal .tarjeta
+{
+    width: 50%;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 15px gray;    
+}
+
+p
+{
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    margin: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+footer
+{
+    background-color: #69496A;
+    margin-top: 3rem;
+}
+
+footer .creditos
+{
+    font-size: 1rem;
+    display: inline-block;
+    color: white;
+}
+
+footer .lista-footer
+{
+    display: inline-block;
+}
+
+footer li
+{
+    display: inline-block;
+    list-style: none;
+    position: relative;
+        left: 45rem; 
+    padding: 0.5rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+footer a
+{
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+/* @media all and (max-width: 1266px)
+{
+    main
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+} */
+
+@media (min-width: 1545px)
+{
+    /* main
+    {
+        width: 100%;
+        height: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    main .tarjeta
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header #container h1
+    {
+        width: 50%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 601px)
+{
+    main .tarjeta
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
